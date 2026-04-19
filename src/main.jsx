@@ -10,6 +10,7 @@ import Product from './components/Product.jsx'
 import Impact from './components/Impact.jsx'
 import GetStarted from './components/Getstarted.jsx'
 import Reviews from './components/Review.jsx'
+import LegalPolicies from './components/LegalPolicies.jsx'
 
 
 
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
         path:"/Reviews",
         element:<Reviews/>,
       },
+      {
+        path:"/legal-policies",
+        element:<LegalPolicies/>
+      }
 
     ]
   }

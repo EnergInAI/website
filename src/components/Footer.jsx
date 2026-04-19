@@ -61,7 +61,7 @@ export default function Footer() {
               { label: "Impact",           path: "/impact"          },
               { label: "About",            path: "/about"           },
               { label: "Reviews",          path: "/reviews"         },
-              { label: "Legal & Policies", path: "/legal-policies"  },
+              { label: "Legal & Policies", path: "/legal-policies" },
             ].map((item) => (
               <li key={item.label}>
                 <Link
@@ -102,7 +102,7 @@ export default function Footer() {
               <p className="text-[14px] text-blue-100">
                 <span className="font-bold text-white">Address:</span>{" "}
                 <a href="https://share.google/IsphTnXC0ZLfmnNYm" className="hover:text-white transition-colors">
-                  D/1-33, 3<sup>rd</sup> Floor, IBD Emporia Mall, Kolar Road ,Bhopal ,M.P. - 462042
+                  D/1-33, 3<sup>rd</sup> Floor ,IBD Emporia Mall ,Kolar Road, Bhopal, M.P. - 462042
                 </a>
               </p>
             </div>
