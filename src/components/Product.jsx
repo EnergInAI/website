@@ -112,7 +112,7 @@ export default function Product() {
           <div ref={ref1} className="pkg-row max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-14">
             <div className="flex-shrink-0 w-full md:w-[320px]">
               <img
-                src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776257635/prod1_1_dstdxn.png"
+                src="public/WhatsApp Image 2026-05-01 at 11.58.56.jpeg"
                 alt="Smart Monitor"
                 className="pkg-img rounded-2xl w-full object-cover h-[260px] cursor-pointer"
               />
