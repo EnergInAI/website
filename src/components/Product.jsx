@@ -137,7 +137,7 @@ export default function Product() {
           <div ref={ref2} className="pkg-row max-w-5xl mx-auto flex flex-col md:flex-row-reverse items-center gap-14">
             <div className="flex-shrink-0 w-full md:w-[320px]">
               <img
-                src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776257641/prod2_1_acog7e.png"
+                src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777806276/WhatsApp_Image_2026-05-01_at_11.58.56_hqukci.jpg"
                 alt="EnerginAI App"
                 className="pkg-img rounded-2xl w-full h-auto object-contain"
               />
