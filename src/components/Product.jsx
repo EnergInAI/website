@@ -201,8 +201,8 @@ export default function Product() {
                 {[
                   { num: "1", title: "Monitor", desc: "Capture every watt in real-time with our high-accuracy IoT device." },
                   { num: "2", title: "Analyze", desc: "Our AI finds hidden patterns, predicts costs, and detects anomalies." },
-                  { num: "3", title: "Act", desc: "Use actionable insights to optimize your overall energy consumption and take smarter decisions based on our recommendations." },
-                  { num: "4", title: "Save", desc: "Follow EnerginAI insights to reduce unnecessary usage and experience noticeable savings on your electricity bills quickly." },
+                  { num: "3", title: "Act", desc: "Use actionable insights to optimize your overall energy consumption and take smarter decisions." },
+                  { num: "4", title: "Save", desc: "Follow EnerginAI insights to reduce unnecessary usage and experience noticeable savings." },
                 ].map((step) => (
                   <div key={step.num} className="step-item flex flex-col items-center text-center">
                     <div className="w-14 h-14 rounded-full bg-orange-400 hover:bg-orange-500 text-white text-[22px] font-bold flex items-center justify-center mb-5 shadow-md flex-shrink-0 transition-all duration-300 hover:scale-110">
