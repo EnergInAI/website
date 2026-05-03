@@ -209,7 +209,7 @@ export default function Product() {
                       {step.num}
                     </div>
                     <h3 className="text-[20px] font-bold text-gray-900 mb-2">{step.title}</h3>
-                    <p className="text-[16px] text-gray-700 leading-relaxed text-justify">{step.desc}</p>
+                    <p className="text-[16px] text-gray-700 leading-relaxed text-justify max-w-[220px]">{step.desc}</p>
                   </div>
                 ))}
               </div>
