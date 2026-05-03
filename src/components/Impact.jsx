@@ -106,7 +106,7 @@ export default function Impact() {
                 <img
                   src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776257803/imp2_1_pgvkru.png"
                   alt="Home Solar Pays Off"
-                  className="impact-img rounded-xl w-full object-cover h-[180px] cursor-pointer"
+                  className="impact-img rounded-xl w-full h-auto object-contain cursor-pointer"
                 />
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function Impact() {
                 <img
                   src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776257809/imp3_1_jvt9ha.png"
                   alt="Consumer Awareness"
-                  className="impact-img rounded-xl w-full object-cover h-[180px] cursor-pointer"
+                  className="impact-img rounded-xl w-full h-auto object-contain cursor-pointer"
                 />
               </div>
             </div>
@@ -160,7 +160,7 @@ export default function Impact() {
                 <img
                   src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776257819/wim_4_1_sv51k0.png"
                   alt="Clean India Ventures"
-                  className="impact-img rounded-xl w-full object-cover h-[180px] cursor-pointer"
+                  className="impact-img rounded-xl w-full h-auto object-contain cursor-pointer"
                 />
               </div>
             </div>
