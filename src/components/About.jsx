@@ -13,7 +13,7 @@ export default function About() {
       <section className="bg-white py-24 px-6">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-[30px] md:text-[36px] font-bold text-[#0d1f4c] tracking-tight mb-3">
-            About EnerginAI™
+            About EnerginAI
           </h2>
           <div className="w-12 h-[3px] bg-orange-400 mx-auto rounded-full mb-10" />
 

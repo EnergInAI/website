@@ -188,7 +188,7 @@ function TrialPopup({ onClose }) {
           <div className="text-center mb-5">
             <div className="text-[48px] mb-3">⚡</div>
             <h2 className="text-[22px] font-extrabold text-[#0d1f4c] mb-2">
-              Try EnerginAI™ for Free!
+              Try EnerginAI for Free!
             </h2>
             <p className="text-[13.5px] text-gray-500 leading-relaxed">
               Book your free trial today and discover how much you can save on your electricity bill with AI-powered energy monitoring.

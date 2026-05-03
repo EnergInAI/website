@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // ── Cities by State ───────────────────────────────────────────────
 const citiesByState = {
-  "Madhya Pradesh": ["Bhopal", "Indore", "Gwalior","narmadapuram","Jabalpur", "Ujjain", "Shivpuri", "Vidisha"]
+  "Madhya Pradesh": ["Bhopal", "Indore", "Gwalior","Narmadapuram","Jabalpur", "Ujjain", "Shivpuri", "Vidisha"]
 };
 
 const states = Object.keys(citiesByState);
@@ -91,7 +91,7 @@ export default function GetStarted() {
             {/* Heading */}
             <div className="text-center mb-4">
               <h1 className="text-[24px] md:text-[28px] font-bold text-[#0d1f4c] mb-1.5">
-                Welcome to EnerginAI™
+                Welcome to EnerginAI
               </h1>
               <p className="text-[13px] text-gray-500 leading-relaxed">
                 Fill in your details below to book your free trial and get started with smarter energy.

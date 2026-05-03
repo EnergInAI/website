@@ -119,7 +119,7 @@ export default function Product() {
             </div>
             <div className="flex-1">
               <h2 className="text-[26px] md:text-[35px] font-bold text-[#0d1f4c] leading-snug mb-4">
-                The EnerginAI™ Smart Monitor
+                The EnerginAI Smart Monitor
               </h2>
               <p className="text-[16px] text-gray-700 leading-relaxed">
                 The brain behind the power. This is not just a sensor; it's a high-fidelity IoT
@@ -144,7 +144,7 @@ export default function Product() {
             </div>
             <div className="flex-1">
               <h2 className="text-[26px] md:text-[35px] font-bold text-[#0d1f4c] leading-snug mb-4">
-                The EnerginAI™ App
+                The EnerginAI App
               </h2>
               <p className="text-[16px] text-gray-700 leading-relaxed">
                 A world of insight in the palm of your hand. Our app is your one-stop
