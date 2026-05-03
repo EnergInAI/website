@@ -163,7 +163,7 @@ export default function Product() {
           <div ref={ref3} className="pkg-row max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-14">
             <div className="flex-shrink-0 w-full md:w-[320px]">
               <img
-                src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776257651/Prod_hero_3_1_pygkkr.png"
+                src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777803130/Website_update_1_tcoove.png"
                 alt="Smart Home"
                 className="pkg-img rounded-2xl w-full object-cover h-[280px] cursor-pointer"
               />

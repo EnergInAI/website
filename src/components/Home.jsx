@@ -381,7 +381,7 @@ export default function Home() {
         <section className="py-10 md:py-20 bg-white border-t border-gray-50 mb-8 md:mb-0">
           <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-12">
             <div className="text-center mb-7 md:mb-16">
-              <h2 className="text-[35px] md:text-[40px] font-bold text-[#0d1f4c] tracking-tight mb-3">The EnerginAI™ Package</h2>
+              <h2 className="text-[35px] md:text-[40px] font-bold text-[#0d1f4c] tracking-tight mb-3">The Energinai Package</h2>
               <div className="w-14 h-[3px] bg-orange-400 mx-auto rounded-full" />
             </div>
 
