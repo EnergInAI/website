@@ -386,7 +386,7 @@ export default function Home() {
             </div>
 
             <div ref={ref1} className="pkg-row flex flex-col md:flex-row items-center gap-5 md:gap-14 mb-8 md:mb-20">
-              <div className="w-full md:hidden"><img src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776256791/feature2_1_uz26ni.png" alt="Energy Assessment" className="pkg-img rounded-2xl w-full object-cover h-[175px]" /></div>
+              <div className="w-full md:hidden"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777812850/Home_page_1_photo_xpkd0b.png" alt="Energy Assessment" className="pkg-img rounded-2xl w-full h-auto object-contain" /></div>
               <div className="flex-1 flex items-start gap-3 md:gap-4">
                 <div className="w-[3px] md:w-[4px] h-10 bg-orange-400 rounded-full flex-shrink-0 mt-1" />
                 <div>
@@ -394,12 +394,12 @@ export default function Home() {
                   <p className="text-[13px] md:text-[16px] text-gray-700 leading-relaxed">Think your home is efficient? Find out with our free trial. Our smart device monitors your energy use 24×7, while AI analyzes your patterns to deliver a detailed assessment of hidden inefficiencies and personalized solutions—so you can start saving immediately.</p>
                 </div>
               </div>
-              <div className="hidden md:block flex-shrink-0 w-[360px]"><img src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776256791/feature2_1_uz26ni.png" alt="Energy Assessment" className="pkg-img rounded-2xl w-full object-cover h-[240px] cursor-pointer" /></div>
+              <div className="hidden md:block flex-shrink-0 w-[360px]"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777812850/Home_page_1_photo_xpkd0b.png" alt="Energy Assessment" className="pkg-img rounded-2xl w-full h-auto object-contain cursor-pointer" /></div>
             </div>
 
             <div ref={ref2} className="pkg-row flex flex-col md:flex-row items-center gap-5 md:gap-14 mb-8 md:mb-20">
-              <div className="w-full md:hidden"><img src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776256799/feat3_1_guqokt.png" alt="Solar Setup" className="pkg-img rounded-2xl w-full object-cover h-[175px]" /></div>
-              <div className="hidden md:block flex-shrink-0 w-[360px]"><img src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776256799/feat3_1_guqokt.png" alt="Solar Setup" className="pkg-img rounded-2xl w-full object-cover h-[240px] cursor-pointer" /></div>
+              <div className="w-full md:hidden"><img src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776256799/feat3_1_guqokt.png" alt="Solar Setup" className="pkg-img rounded-2xl w-full h-auto object-contain" /></div>
+              <div className="hidden md:block flex-shrink-0 w-[360px]"><img src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776256799/feat3_1_guqokt.png" alt="Solar Setup" className="pkg-img rounded-2xl w-full h-auto object-contain cursor-pointer" /></div>
               <div className="flex-1 flex items-start gap-3 md:gap-4">
                 <div>
                   <h3 className="text-[20px] md:text-[28px] font-bold text-[#0d1f4c] leading-snug mb-1.5 md:mb-5">Zero-Cost Solar Setup and Net Metering</h3>
@@ -410,7 +410,7 @@ export default function Home() {
             </div>
 
             <div ref={ref3} className="pkg-row flex flex-col md:flex-row items-center gap-5 md:gap-14 mb-8 md:mb-20">
-              <div className="w-full md:hidden"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777811587/3_photo_home_page_brslkr.jpg" alt="AI Monitoring" className="pkg-img rounded-2xl w-full object-cover h-[175px]" /></div>
+              <div className="w-full md:hidden"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777811587/3_photo_home_page_brslkr.jpg" alt="AI Monitoring" className="pkg-img rounded-2xl w-full h-auto object-contain" /></div>
               <div className="flex-1 flex items-start gap-3 md:gap-4">
                 <div className="w-[3px] md:w-[4px] h-10 bg-orange-400 rounded-full flex-shrink-0 mt-1" />
                 <div>
@@ -418,12 +418,12 @@ export default function Home() {
                   <p className="text-[13px] md:text-[16px] text-gray-700 leading-relaxed">Our relationship doesn't end at installation. The EnerginAI™ smart monitor and app give you continuous visibility into your energy system — tracking production, consumption, and grid export in real time, with AI-powered alerts and monthly savings reports.</p>
                 </div>
               </div>
-              <div className="hidden md:block flex-shrink-0 w-[360px]"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777811587/3_photo_home_page_brslkr.jpg" alt="AI Monitoring" className="pkg-img rounded-2xl w-full object-cover h-[240px] cursor-pointer" /></div>
+              <div className="hidden md:block flex-shrink-0 w-[360px]"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777811587/3_photo_home_page_brslkr.jpg" alt="AI Monitoring" className="pkg-img rounded-2xl w-full h-auto object-contain cursor-pointer" /></div>
             </div>
 
             <div ref={ref4} className="pkg-row flex flex-col md:flex-row items-center gap-5 md:gap-14 mb-8 md:mb-20 md:pt-20">
-              <div className="w-full md:hidden"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777812104/home_page_4_photo_carbon_hvmjb1.png" alt="Smart Home" className="pkg-img rounded-2xl w-full object-cover h-[175px]" /></div>
-              <div className="hidden md:block flex-shrink-0 w-[360px]"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777812104/home_page_4_photo_carbon_hvmjb1.png" alt="Smart Home" className="pkg-img rounded-2xl w-full object-cover h-[240px] cursor-pointer" /></div>
+              <div className="w-full md:hidden"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777812104/home_page_4_photo_carbon_hvmjb1.png" alt="Smart Home" className="pkg-img rounded-2xl w-full h-auto object-contain" /></div>
+              <div className="hidden md:block flex-shrink-0 w-[360px]"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777812104/home_page_4_photo_carbon_hvmjb1.png" alt="Smart Home" className="pkg-img rounded-2xl w-full h-auto object-contain cursor-pointer" /></div>
               <div className="flex-1 flex items-start gap-3 md:gap-4">
                 <div>
                   <h3 className="text-[20px] md:text-[28px] font-bold text-[#0d1f4c] leading-snug mb-1.5 md:mb-5">Smart Home Integration, Carbon Credits, and More</h3>
