@@ -114,7 +114,7 @@ export default function Product() {
               <img
                 src="https://res.cloudinary.com/derqe6ano/image/upload/f_auto,q_auto/WhatsApp_Image_2026-05-01_at_11.58.56_cq32ug"
                 alt="Smart Monitor"
-                className="pkg-img rounded-2xl w-full object-cover h-[260px] cursor-pointer"
+                className="pkg-img rounded-2xl w-full h-auto object-contain cursor-pointer"
               />
             </div>
             <div className="flex-1">
@@ -139,7 +139,7 @@ export default function Product() {
               <img
                 src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777806418/WhatsApp_Image_2026-05-03_at_15.55.23_twmpcd.jpg"
                 alt="EnerginAI App"
-                className="pkg-img rounded-2xl w-full h-auto object-contain"
+                className="pkg-img rounded-2xl w-full h-auto object-contain cursor-pointer"
               />
             </div>
             <div className="flex-1">
@@ -165,7 +165,7 @@ export default function Product() {
               <img
                 src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777803130/Website_update_1_tcoove.png"
                 alt="Smart Home"
-                className="pkg-img rounded-2xl w-full object-cover h-[280px] cursor-pointer"
+                className="pkg-img rounded-2xl w-full h-auto object-contain cursor-pointer"
               />
             </div>
             <div className="flex-1">
@@ -209,7 +209,7 @@ export default function Product() {
                       {step.num}
                     </div>
                     <h3 className="text-[20px] font-bold text-gray-900 mb-2">{step.title}</h3>
-                    <p className="text-[16px] text-gray-700 leading-relaxed">{step.desc}</p>
+                    <p className="text-[16px] text-gray-700 leading-relaxed text-justify">{step.desc}</p>
                   </div>
                 ))}
               </div>
