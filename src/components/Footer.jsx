@@ -148,7 +148,7 @@ export default function Footer() {
       <div className="border-t border-blue-500/30">
         <div className="max-w-6xl mx-auto px-6 py-5 text-center">
           <p className="text-[13px] text-white">
-            © 2026 Energinai Private Limited.All Rights Reserved.
+            © 2026 EnerginAI Private Limited.All Rights Reserved.
           </p>
         </div>
       </div>

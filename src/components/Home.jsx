@@ -381,7 +381,7 @@ export default function Home() {
         <section className="py-10 md:py-20 bg-white border-t border-gray-50 mb-8 md:mb-0">
           <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-12">
             <div className="text-center mb-7 md:mb-16">
-              <h2 className="text-[35px] md:text-[40px] font-bold text-[#0d1f4c] tracking-tight mb-3">The Energinai Package</h2>
+              <h2 className="text-[35px] md:text-[40px] font-bold text-[#0d1f4c] tracking-tight mb-3">The EnerginAI Package</h2>
               <div className="w-14 h-[3px] bg-orange-400 mx-auto rounded-full" />
             </div>
 
@@ -415,7 +415,7 @@ export default function Home() {
                 <div className="w-[3px] md:w-[4px] h-10 bg-orange-400 rounded-full flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-[20px] md:text-[28px] font-bold text-[#0d1f4c] leading-snug mb-1.5 md:mb-5">Real-Time Monitoring of Your Usage — in Your Hands</h3>
-                  <p className="text-[13px] md:text-[16px] text-gray-700 leading-relaxed">Our relationship doesn't end at installation. The EnerginAI™ smart monitor and app give you continuous visibility into your energy system — tracking production, consumption, and grid export in real time, with AI-powered alerts and monthly savings reports.</p>
+                  <p className="text-[13px] md:text-[16px] text-gray-700 leading-relaxed">Our relationship doesn't end at installation. The EnerginAI smart monitor and app give you continuous visibility into your energy system — tracking production, consumption, and grid export in real time, with AI-powered alerts and monthly savings reports.</p>
                 </div>
               </div>
               <div className="hidden md:block flex-shrink-0 w-[360px]"><img src="https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1777811587/3_photo_home_page_brslkr.jpg" alt="AI Monitoring" className="pkg-img rounded-2xl w-full h-auto object-contain cursor-pointer" /></div>
@@ -448,7 +448,7 @@ export default function Home() {
                 num="01"
                 title="Book Your FREE Trial & Assessment"
                 delay="0s"
-                desc={<>Start by filling out our{" "}<span className="bg-yellow-100 text-gray-800 font-bold px-2 py-0.5 rounded">Form</span>{" "}and we'll schedule your free trial of the EnerginAI™ smart device and dashboard. Post trial, our AI-powered system will analyze your usage patterns and deliver a detailed assessment for your home.</>}
+                desc={<>Start by filling out our{" "}<span className="bg-yellow-100 text-gray-800 font-bold px-2 py-0.5 rounded">Form</span>{" "}and we'll schedule your free trial of the EnerginAI smart device and dashboard. Post trial, our AI-powered system will analyze your usage patterns and deliver a detailed assessment for your home.</>}
               />
               <StepCard
                 num="02"
