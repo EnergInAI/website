@@ -76,6 +76,15 @@ const testimonials = [
     image: "https://res.cloudinary.com/dalrx2wig/image/upload/v1774325044/rev_img_1_mxkhru.jpg",
    
   },
+  {
+    name: "Mr. Sanjay Shukla",
+    location: "Bhopal, Madhya Pradesh",
+    pullQuote: "Before EnerginAI, every month brought another expensive electricity bill. Now my energy usage is finally under control.",
+    summary: "I was struggling with unpredictable power costs and had no clear idea where my electricity was being wasted. EnerginAI guided me through a complete home energy assessment and optimized my solar usage perfectly. Within a short time, my electricity expenses dropped significantly, and I gained real-time visibility into how my home consumes energy every day.",
+    bottomQuote: "EnerginAI gave me more than savings — it gave me confidence, clarity, and a smarter way to manage my home's energy.",
+    stars: 5,
+    image: "https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1778248243/sanjay_sukla_image_gfirhu.jpg",
+  },
 ];
 
 // ── Star Rating ───────────────────────────────────────────────────

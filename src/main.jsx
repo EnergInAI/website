@@ -11,6 +11,8 @@ import Impact from './components/Impact.jsx'
 import GetStarted from './components/Getstarted.jsx'
 import Reviews from './components/Review.jsx'
 import LegalPolicies from './components/LegalPolicies.jsx'
+import Blogs from "./components/Blogs";
+import BlogDetails from "./components/BlogDetails";
 
 
 
@@ -47,7 +49,15 @@ const router = createBrowserRouter([
       {
         path:"/legal-policies",
         element:<LegalPolicies/>
-      }
+      },{/* ══════════════════════════════════════ FAQ ══ 
+      {
+        path:"/blogs",
+        element:<Blogs/>
+      },
+      {
+        path:"/blogs/:slug",
+        element:<BlogDetails/>
+      }*/}
 
     ]
   }
