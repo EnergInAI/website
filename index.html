@@ -3,40 +3,61 @@
   <head>
     <meta charset="UTF-8" />
 
-    <!-- ✅ FINAL FAVICON (.ico - best for Google) -->
-    <link rel="icon" href="/Logo.ico?v=3" />
-    <link rel="shortcut icon" href="/Logo.ico?v=3" />
+    <!-- ✅ FINAL FAVICON -->
+    <link rel="icon" type="image/x-icon" href="/Logo.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/Logo.ico" />
 
-    <!-- optional but good -->
+    <!-- ✅ Apple Touch Icon -->
     <link rel="apple-touch-icon" href="/Logo.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EnergInAI</title>
+
+    <title>EnergInAI | AI Powered Smart Energy Solutions</title>
 
     <!-- ✅ SEO TAGS -->
-    <meta property="og:title" content="EnergInAI - Smart Energy Solutions" />
-    <meta property="og:description" content="AI-powered IoT energy monitoring platform to track, control and save electricity." />
-    <meta property="og:image" content="https://energinai.com/Logo.png" />
+    <meta
+      property="og:title"
+      content="EnergInAI - Smart Energy Solutions"
+    />
+
+    <meta
+      property="og:description"
+      content="AI-powered IoT energy monitoring platform to track, control and save electricity."
+    />
+
+    <meta
+      property="og:image"
+      content="https://energinai.com/Logo.png"
+    />
+
     <meta property="og:type" content="website" />
 
     <!-- ✅ Structured Data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "EnerginAI",
-      "url": "https://energinai.com",
-      "logo": "https://energinai.com/Logo.png"
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "EnerginAI",
+        "url": "https://energinai.com",
+        "logo": "https://energinai.com/Logo.png"
+      }
     </script>
-
   </head>
 
   <body>
 
     <!-- 🔥 Netlify Hidden Form (IMPORTANT) -->
-    <form name="audit-request" method="POST" data-netlify="true" hidden>
-      <input type="hidden" name="form-name" value="audit-request" />
+    <form
+      name="audit-request"
+      method="POST"
+      data-netlify="true"
+      hidden
+    >
+      <input
+        type="hidden"
+        name="form-name"
+        value="audit-request"
+      />
 
       <input type="text" name="name" />
       <input type="email" name="email" />
