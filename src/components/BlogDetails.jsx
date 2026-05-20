@@ -26,7 +26,7 @@ export default function BlogDetails() {
           <img
             src={blog.image}
             alt={blog.title}
-            className="w-full h-[420px] object-cover"
+            className="w-full h-[420px] object-contain bg-[#edf4ff] p-4"
           />
 
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
