@@ -49,7 +49,7 @@ const router = createBrowserRouter([
       {
         path:"/legal-policies",
         element:<LegalPolicies/>
-      },{/* ══════════════════════════════════════ FAQ ══ 
+      },
       {
         path:"/blogs",
         element:<Blogs/>
@@ -57,7 +57,7 @@ const router = createBrowserRouter([
       {
         path:"/blogs/:slug",
         element:<BlogDetails/>
-      }*/}
+      }
 
     ]
   }
