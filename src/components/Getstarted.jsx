@@ -1,25 +1,14 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-// ── Cities by State ───────────────────────────────────────────────
-const citiesByState = {
-  "Madhya Pradesh": [
-    "Bhopal",
-    "Indore",
-    "Gwalior",
-    "Narmadapuram",
-    "Jabalpur",
-    "Ujjain",
-    "Shivpuri",
-    "Vidisha",
-  ],
-
-  "Assam": [],
-};
-
-const states = Object.keys(citiesByState);
+// ── States ───────────────────────────────────────────────
+const states = [
+  "Madhya Pradesh",
+  "Assam",
+];
 
 export default function GetStarted() {
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -36,7 +25,6 @@ export default function GetStarted() {
     setFormData((prev) => ({
       ...prev,
       [name]: value,
-      ...(name === "state" ? { city: "" } : {}),
     }));
   };
 
@@ -58,6 +46,7 @@ export default function GetStarted() {
       });
 
       setSubmitted(true);
+
     } catch (error) {
       console.error("Error:", error);
     }
@@ -95,6 +84,7 @@ export default function GetStarted() {
             >
               Back to Home
             </Link>
+
           </div>
         </div>
 
@@ -110,6 +100,7 @@ export default function GetStarted() {
 
             {/* Heading */}
             <div className="text-center mb-4">
+
               <h1 className="text-[24px] md:text-[28px] font-bold text-[#0d1f4c] mb-1.5">
                 Welcome to EnerginAI
               </h1>
@@ -117,6 +108,7 @@ export default function GetStarted() {
               <p className="text-[13px] text-gray-500 leading-relaxed">
                 Fill in your details below to book your free trial and get started with smarter energy.
               </p>
+
             </div>
 
             {/* Form */}
@@ -136,6 +128,7 @@ export default function GetStarted() {
 
               {/* Full Name */}
               <div>
+
                 <label className={labelClass}>
                   Full Name
                 </label>
@@ -149,10 +142,12 @@ export default function GetStarted() {
                   required
                   className={inputClass}
                 />
+
               </div>
 
               {/* Email */}
               <div>
+
                 <label className={labelClass}>
                   Email Address
                 </label>
@@ -166,10 +161,12 @@ export default function GetStarted() {
                   required
                   className={inputClass}
                 />
+
               </div>
 
               {/* Phone */}
               <div>
+
                 <label className={labelClass}>
                   Phone Number
                 </label>
@@ -183,13 +180,15 @@ export default function GetStarted() {
                   required
                   className={inputClass}
                 />
+
               </div>
 
               {/* State + City */}
               <div className="grid grid-cols-2 gap-3">
 
-                {/* State Dropdown */}
+                {/* State */}
                 <div>
+
                   <label className={labelClass}>
                     State
                   </label>
@@ -201,56 +200,36 @@ export default function GetStarted() {
                     required
                     className={inputClass}
                   >
+
                     {states.map((s) => (
                       <option key={s} value={s}>
                         {s}
                       </option>
                     ))}
+
                   </select>
+
                 </div>
 
-                {/* City Section */}
+                {/* City */}
                 <div>
+
                   <label className={labelClass}>
                     City / District
                   </label>
 
-                  {formData.state === "Assam" ? (
+                  <input
+                    type="text"
+                    name="city"
+                    value={formData.city}
+                    onChange={handleChange}
+                    placeholder="Enter your city"
+                    required
+                    className={inputClass}
+                  />
 
-                    // Assam → Manual Input
-                    <input
-                      type="text"
-                      name="city"
-                      value={formData.city}
-                      onChange={handleChange}
-                      placeholder="Enter your city"
-                      required
-                      className={inputClass}
-                    />
-
-                  ) : (
-
-                    // Madhya Pradesh → Dropdown
-                    <select
-                      name="city"
-                      value={formData.city}
-                      onChange={handleChange}
-                      required
-                      className={inputClass}
-                    >
-                      <option value="">
-                        Select City
-                      </option>
-
-                      {(citiesByState[formData.state] || []).map((c) => (
-                        <option key={c} value={c}>
-                          {c}
-                        </option>
-                      ))}
-                    </select>
-
-                  )}
                 </div>
+
               </div>
 
               {/* Submit */}
