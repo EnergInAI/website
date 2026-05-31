@@ -112,14 +112,14 @@ export default function Footer() {
             <div className="flex items-center justify-center gap-3">
 
               {/* X / Twitter */}
-              <a href="#" aria-label="X" className="w-9 h-9 rounded-full bg-black flex items-center justify-center hover:opacity-80 transition-opacity">
+              <a href="https://x.com/EnergInAI" aria-label="X" className="w-9 h-9 rounded-full bg-black flex items-center justify-center hover:opacity-80 transition-opacity">
                 <svg width="16" height="16" fill="white" viewBox="0 0 24 24">
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.63 5.905-5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </a>
 
               {/* Instagram */}
-              <a href="https://www.instagram.com/p/DXvK6iIjMPR/?id=3886373006289454033_33074507581&is_sponsored=true&is_ineligible_for_clips_chaining=false" aria-label="Instagram" className="w-9 h-9 rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
+              <a href="https://www.instagram.com/energinai_pvt_limited?igsh=MW85cnc2YW93bGc1cg%3D%3D"
                 style={{ background: "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)" }}>
                 <svg width="17" height="17" fill="white" viewBox="0 0 24 24">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.241 1.308 3.608.058 1.265.07 1.645.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.975.975-2.242 1.246-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.333-3.608-1.308-.974-.975-1.246-2.242-1.308-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.975-.974 2.242-1.246 3.608-1.308C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.333.013 7.053.072 5.196.162 3.47.638 2.014 2.014.638 3.47.162 5.196.072 7.053.013 8.333 0 8.741 0 12c0 3.259.013 3.668.072 4.948.09 1.857.566 3.583 1.942 4.959 1.376 1.376 3.102 1.852 4.959 1.942C8.333 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.857-.09 3.583-.566 4.959-1.942 1.376-1.376 1.852-3.102 1.942-4.959.059-1.28.072-1.689.072-4.948 0-3.259-.013-3.667-.072-4.947-.09-1.857-.566-3.583-1.942-4.959C20.531.638 18.805.162 16.948.072 15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
