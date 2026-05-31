@@ -1,58 +1,76 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- ✅ Basic Meta -->
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- ✅ FINAL FAVICON -->
-    <link rel="icon" type="image/x-icon" href="/Logo.ico" />
-    <link rel="shortcut icon" type="image/x-icon" href="/Logo.ico" />
-
-    <!-- ✅ Apple Touch Icon -->
-    <link rel="apple-touch-icon" href="/Logo.png" />
-
+    <!-- ✅ Mobile Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>EnergInAI | AI Powered Smart Energy Solutions</title>
+    <!-- ✅ Primary SEO -->
+    <title>
+      EnergInAI | AI Powered Smart Energy Monitoring & NILM Solutions
+    </title>
 
-    <!-- ✅ Primary SEO Meta Tags -->
+    <meta
+      name="title"
+      content="EnergInAI | AI Powered Smart Energy Monitoring & NILM Solutions"
+    />
+
     <meta
       name="description"
-      content="EnergInAI provides AI-powered smart energy monitoring, NILM analytics, IoT energy tracking, appliance detection, and real-time electricity insights for homes and businesses."
+      content="EnergInAI provides AI-powered smart energy monitoring, NILM analytics, appliance detection, IoT energy tracking, solar analytics, and real-time electricity insights for homes and businesses."
     />
 
     <meta
       name="keywords"
-      content="EnergInAI, smart energy solutions, NILM, AI energy monitoring, IoT energy tracking, appliance detection, solar monitoring, energy analytics"
+      content="EnergInAI, NILM, AI energy monitoring, smart energy solutions, IoT energy analytics, appliance detection, electricity monitoring, solar monitoring, AI power analytics, energy optimization"
     />
 
     <meta name="author" content="EnergInAI" />
-
-    <meta name="robots" content="index, follow" />
-
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- ✅ Canonical URL -->
+    <!-- ✅ Canonical -->
     <link rel="canonical" href="https://energinai.com/" />
 
-    <!-- ✅ SEO TAGS -->
-    <meta
-      property="og:title"
-      content="EnergInAI - Smart Energy Solutions"
-    />
+    <!-- ✅ Favicon -->
+    <link rel="icon" type="image/x-icon" href="/Logo.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/Logo.ico" />
 
-    <meta
-      property="og:description"
-      content="AI-powered IoT energy monitoring platform to track, control and save electricity."
-    />
+    <!-- ✅ Apple Devices -->
+    <link rel="apple-touch-icon" href="/Logo.png" />
 
+    <!-- ✅ Open Graph / Facebook -->
     <meta
-      property="og:image"
-      content="https://energinai.com/Logo.png"
+      property="og:type"
+      content="website"
     />
 
     <meta
       property="og:url"
       content="https://energinai.com/"
+    />
+
+    <meta
+      property="og:title"
+      content="EnergInAI | AI Powered Smart Energy Monitoring"
+    />
+
+    <meta
+      property="og:description"
+      content="Track, analyze and optimize electricity usage with AI-powered NILM and smart energy analytics."
+    />
+
+    <meta
+      property="og:image"
+      content="https://energinai.com/Logo.png"
     />
 
     <meta
@@ -65,8 +83,6 @@
       content="en_US"
     />
 
-    <meta property="og:type" content="website" />
-
     <!-- ✅ Twitter SEO -->
     <meta
       name="twitter:card"
@@ -74,13 +90,18 @@
     />
 
     <meta
+      name="twitter:url"
+      content="https://energinai.com/"
+    />
+
+    <meta
       name="twitter:title"
-      content="EnergInAI - Smart Energy Solutions"
+      content="EnergInAI | AI Powered Smart Energy Solutions"
     />
 
     <meta
       name="twitter:description"
-      content="AI-powered IoT energy monitoring platform to track, control and save electricity."
+      content="AI-powered IoT energy monitoring platform with NILM analytics and appliance detection."
     />
 
     <meta
@@ -88,21 +109,51 @@
       content="https://energinai.com/Logo.png"
     />
 
+    <!-- ✅ PWA Support -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="default"
+    />
+
+    <!-- ✅ Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <!-- ✅ Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "EnerginAI",
+        "name": "EnergInAI",
         "url": "https://energinai.com",
-        "logo": "https://energinai.com/Logo.png"
+        "logo": "https://energinai.com/Logo.png",
+        "description": "AI-powered smart energy monitoring and NILM analytics platform.",
+        "sameAs": [
+          "https://www.linkedin.com/company/energinai"
+        ]
+      }
+    </script>
+
+    <!-- ✅ Website Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "EnergInAI",
+        "url": "https://energinai.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://energinai.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       }
     </script>
   </head>
 
   <body>
 
-    <!-- 🔥 Netlify Hidden Form (IMPORTANT) -->
+    <!-- 🔥 Netlify Hidden Form -->
     <form
       name="audit-request"
       method="POST"
@@ -122,8 +173,16 @@
       <input type="text" name="city" />
     </form>
 
+    <!-- ✅ SEO Friendly Fallback Content -->
+    <noscript>
+      EnergInAI provides AI-powered smart energy monitoring, NILM analytics,
+      appliance detection, IoT energy insights, and electricity optimization
+      solutions for homes and businesses.
+    </noscript>
+
     <div id="root"></div>
 
+    <!-- ✅ Main React Entry -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
