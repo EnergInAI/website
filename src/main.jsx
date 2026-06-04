@@ -13,6 +13,7 @@ import Reviews from './components/Review.jsx'
 import LegalPolicies from './components/LegalPolicies.jsx'
 import Blogs from "./components/Blogs";
 import BlogDetails from "./components/BlogDetails";
+import WhatsAppWidget from "./components/WhatsAppWidget";
 
 
 
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path:"/blogs/:slug",
         element:<BlogDetails/>
+      },
+      {
+        path:"/WhatsAppWidget",
+        element:<WhatsAppWidget/>
       }
 
     ]
