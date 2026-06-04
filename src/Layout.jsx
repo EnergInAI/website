@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Outlet } from 'react-router-dom';
 import ScrollToTop from "./components/scrolltotop";
+import WhatsAppWidget from "./components/WhatsAppWidget";
 
 
 function Layout() {
@@ -11,6 +12,7 @@ function Layout() {
         <Navbar/>
         <ScrollToTop/>
         <Outlet/>
+        <WhatsAppWidget/>
         <Footer/>
         </>
     )
