@@ -13,9 +13,7 @@ export default function BlogCard({ blog }) {
           className="w-full h-60 object-contain bg-[#edf4ff] p-2 group-hover:scale-105 transition duration-700"
         />
 
-        <div className="absolute top-4 left-4 bg-[#1e3c72] text-white text-xs px-4 py-2 rounded-full font-semibold shadow-lg">
-          
-        </div>
+        
       </div>
 
       {/* Content */}
