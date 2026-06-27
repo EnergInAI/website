@@ -14,7 +14,7 @@ export default function BlogCard({ blog }) {
         />
 
         <div className="absolute top-4 left-4 bg-[#1e3c72] text-white text-xs px-4 py-2 rounded-full font-semibold shadow-lg">
-          EnergInAI Blog
+          
         </div>
       </div>
 
