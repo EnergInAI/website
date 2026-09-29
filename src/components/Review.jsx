@@ -46,7 +46,7 @@ const testimonials = [
     image: "https://res.cloudinary.com/derqe6ano/image/upload/q_auto/f_auto/v1778248243/sanjay_sukla_image_gfirhu.jpg",
   },
   {
-    name: "Mrs.Girija Swarnkar",
+    name: "Mrs. Girija Swarnkar",
     location: "Bhopal, Madhya Pradesh",
     pullQuote: "Sometimes the best decisions begin with a recommendation you trust.",
     summary: "After seeing my sister-in-law's experience with EnerginAI, the decision was easy. The Smart Monitor and App gives us a real-time view of solar generation, consumption, and savings — all in one place. Instead of guessing, we can clearly see how our electricity is being used every day.",
@@ -56,7 +56,7 @@ const testimonials = [
     tag: "Solar + Smart Monitor",
   },
   {
-    name: "Mr.Sanjeev Swarnkar",
+    name: "Mr. Sanjeev Swarnkar",
     location: "Bhopal, Madhya Pradesh",
     pullQuote: "I don't believe in waiting for problems to grow — I believe in solving them early.",
     summary: "When my bills kept rising, I chose EnerginAI after careful research. Their team designed a solution tailored precisely for my home. The Smart Monitor App completely changed how I manage electricity — I now track real-time generation and make informed decisions with complete visibility.",
@@ -66,7 +66,7 @@ const testimonials = [
     
   },
   {
-    name: "Mr.Santram Ahirwar",
+    name: "Mr. Santram Ahirwar",
     location: "Bhopal, Madhya Pradesh",
     pullQuote: "A new home comes with big dreams — EnerginAI brought the clarity and control I needed.",
     summary: "As a new homeowner, I wanted my house to be efficient from day one. EnerginAI's smart monitor showed me exactly how much power I was consuming, how much solar I was generating, and how much was being exported back to the grid — clearly and in real time.",
@@ -76,7 +76,7 @@ const testimonials = [
     
   },
   {
-    name: "Mrs.Jyoti Rajesh Singh",
+    name: "Mrs. Jyoti Rajesh Singh",
     location: "Bhopal, Madhya Pradesh",
     pullQuote: "High bills, no control, constant stress — until I found EnerginAI. Now my bills are ₹0.",
     summary: "For months my bills kept rising with no explanation. EnerginAI's home assessment changed everything. Within the first week my solar was covering most of my home's demand, my bill dropped to ₹0, and I finally understood my energy system completely.",
