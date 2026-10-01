@@ -37,6 +37,16 @@ const animStyles = `
 // ── Testimonial Data ──────────────────────────────────────────────
 const testimonials = [
   {
+    name: "Dr. Vikas Agarwal",
+    location: "Gwalior, Madhya Pradesh",
+    note: "Our first deployment in Gwalior City",
+    pullQuote: "Going solar was my step towards a greener India — but as a doctor, I know a treatment is only as good as its diagnosis.",
+    summary: "I recently installed a solar plant to do my part for a green India, but I wanted to see how it was actually performing. The EnerginAI Smart Monitor gave me that full diagnosis — real-time solar generation, home consumption, and grid export, all in one app. Instead of assuming my system was healthy, I can now see exactly how it behaves every single day.",
+    bottomQuote: "Solar is the treatment, EnerginAI is the diagnosis — together, they give you the complete picture of your home's energy health.",
+    stars: 5,
+    image: "/reviews/vikas-agarwal-gwalior.webp",
+  },
+  {
     name: "Mr. Sunil Shukla",
     location: "Bhopal, Madhya Pradesh",
     pullQuote: "Before EnerginAI, every month brought another expensive electricity bill. Now my energy usage is finally under control.",
@@ -128,6 +138,9 @@ function ReviewCard({ t, index }) {
             <div>
               <h3 className="text-[18px] font-bold text-[#0d1f4c] leading-tight">{t.name}</h3>
               <p className="text-[12px] font-semibold text-orange-500 mt-0.5">{t.location}</p>
+              {t.note && (
+                <p className="text-[11px] text-gray-400 italic mt-1">{t.note}</p>
+              )}
             </div>
             <Stars count={t.stars} />
           </div>
